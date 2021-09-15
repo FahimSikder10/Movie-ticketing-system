@@ -1,0 +1,551 @@
+.butt button{
+
+  margin: 1.5em 0.6em;
+  padding: 0.5em 2.4em;
+}
+
+*{
+
+  box-sizing: border-box;
+}
+
+.clm{
+  position: relative;
+
+  float: left;
+  width: 33%;
+  padding: 3px;
+}
+.clm img{
+  /* display: block; */
+  /* height: 300px; */
+}
+.image-description{
+  font-size: 1.25em;
+  position: absolute;
+  top: 27;
+  left: 82;
+  width: 210px;
+  height: 220px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 1s;
+  backdrop-filter: blur(5px);
+}
+
+.image-description:hover{
+  opacity: 1;
+}
+.d2{
+  font-size: 0.8em;
+}
+.d3{
+
+  font-size: 0.6em;
+}
+
+.image-description2{
+  font-size: 1.25em;
+  position: relative;
+
+  bottom: 220px;
+  left: 80px;
+  width: 210px;
+  height: 220px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 1s;
+  backdrop-filter: blur(5px);
+}
+
+.image-description2:hover{
+  opacity: 1;
+}
+
+
+
+.name {
+    margin-top: 245px;
+    padding: 0.5em;
+    text-align: center;
+    background-color: cyan;
+    background-color: #666666;
+}
+
+/* <style>
+    table,th,td
+    {
+      border:2px solid red;
+    }
+    table
+    {
+      border-collapse:collapse;
+      width:20%;
+    }
+    td
+    {
+      height:40px;
+    }
+    tr
+    {
+      background-color:green;
+      color:white;
+    }
+    th
+    {
+      background-color:yellow;
+      color:black;
+    }
+table {
+  border-spacing: 15px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  padding: 5px;
+}
+  </style>
+
+
+  .booking table{
+
+    margin 1em 10em;
+
+  } */
+
+  .moviebutton{
+    text-decoration: none;
+  }
+
+  table {
+  font-family: arial, sans-serif;
+
+
+}
+
+td, th {
+  border: 0 solid #26292c;
+  text-align: center;
+  color: white;
+
+}
+
+ /* admin user table side by side */
+ .container-fluid {
+     /* border: 3px solid #fff; */
+     padding: 20px;
+ }
+
+ .adminbuttons{
+
+
+    width: 30%;
+    border: 1px solid red;
+     float: left;
+
+
+     padding: 10px;
+
+ }
+
+
+
+
+
+
+
+
+
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+/* Toggle Styles */
+
+#viewport {
+  padding-left: 250px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#content {
+  width: 100%;
+  position: relative;
+  margin-right: 0;
+}
+
+
+
+
+
+/* admin sidebar */
+
+.sidebar-container {
+  position: fixed;
+  width: 220px;
+  height: 100%;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: #1a1a1a;
+  color: #fff;
+}
+
+.content-container {
+  padding-top: 20px;
+}
+
+.sidebar-logo {
+  padding: 10px 15px 10px 30px;
+  font-size: 20px;
+  background-color: #2574A9;
+}
+
+.sidebar-navigation {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  position: relative;
+}
+
+.sidebar-navigation li {
+  background-color: transparent;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  line-height: 20px;
+}
+
+.sidebar-navigation li a {
+  padding: 10px 15px 10px 30px;
+  display: block;
+  color: #fff;
+}
+
+.sidebar-navigation li .fa {
+  margin-right: 10px;
+}
+
+.sidebar-navigation li a:active,
+.sidebar-navigation li a:hover,
+.sidebar-navigation li a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.sidebar-navigation li::before {
+  background-color: #2574A9;
+  position: absolute;
+  content: '';
+  height: 100%;
+  left: 0;
+  top: 0;
+  -webkit-transition: width 0.2s ease-in;
+  transition: width 0.2s ease-in;
+  width: 3px;
+  z-index: -1;
+}
+
+.sidebar-navigation li:hover::before {
+  width: 100%;
+}
+
+.sidebar-navigation .header {
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: #151515;
+  padding: 10px 15px 10px 30px;
+}
+
+.sidebar-navigation .header::before {
+  background-color: transparent;
+}
+
+.content-container {
+  padding-left: 220px;
+}
+
+/* adminuser table */
+
+
+table {
+  /* border-collapse: collapse; */
+  width: 50%;
+  align-items: center;
+}
+
+th {
+  height: 50px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* .booking{
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+} */
+/* table {
+                border-collapse: collapse;
+            }
+            th {
+                background-color:green;
+                Color:white;
+            }
+            th, td {
+                width:150px;
+                text-align:center;
+                border:1px solid black;
+                padding:5px
+
+            } */
+
+
+
+
+/* .container{
+  display: flex;
+  margin: 10px;
+  flex-direction: row;
+}
+
+.container2{
+  display: flex;
+} */
+
+
+/* .table3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  grid-column-gap: 30px;
+} */
+/* .table3{
+  display: flex;
+  width: 30px;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+
+}
+.table4{
+  display: flex;
+  width: 30px;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+} */
+
+
+
+      /* admin panel movies editing */
+.admin-section-panel2 form {
+
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .admin-section-panel2 form input {
+        border-radius: 4px;
+        border: 1px solid #6e6e6e;
+        padding: 10px;
+        width: 32%;
+        height: 42px;
+        margin: 5px 0;
+    }
+
+    .admin-section-panel2 form input[type="file"] {
+        width: 49%;
+        padding: 0;
+    }
+
+    .admin-section-panel2 form button {
+        border-radius: 4px;
+        border: none;
+        padding: 10px;
+        width: 49%;
+        text-align: center;
+        background-color: #b6b6b6;    //#a3861e
+        color: #FFF;
+        transition: all 0.7s ease;
+        cursor: pointer;
+        height: 42px;
+    }
+
+    .admin-section-panel2 form button:hover {
+        background-color: rgb(246, 11, 11)
+    }
+
+
+
+
+
+    .admin-section-column {
+        flex: display;
+
+
+        max-width: 50%;
+        padding: 0 10px;
+
+    }
+
+
+    .admin-section-panel {
+            width: 100%;
+            align-items: flex-start;
+            vertical-align: middle;
+            background-color: #FFF;
+            -webkit-border-radius: 6px;
+            -moz-border-radius: 6px;
+            border-radius: 6px;
+            -webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.40);
+            -moz-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.40);
+            box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.40);
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .admin-panel-section-header {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding-bottom: 20px;
+            border-bottom: #c7c7c7 1px solid;
+        }
+        .admin-panel-section-header>h2 {
+    color: #6e6e6e;
+}
+
+.admin-panel-section-header>i {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 10%;
+    line-height: 60px;
+    transition: all 0.5s ease;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+/* element.style {
+  align-items: center;
+  justify-content: center;
+} */
+
+.fa-film:before {
+    content: "\f008";
+}
+
+
+/* for session to show username on top */
+.myusername{
+display: flex;
+justify-content: flex-end;
+font-size: 20px;
+position: relative;
+bottom: 65px;
+right: 10px;
+}
+
+.dashboard{
+  display: flex;
+  justify-content: center;
+  color: rgb(18, 58, 228);
+}
+
+.totalnumber{
+
+  display: flex;
+  justify-content: center;
+  font-size: 200px;
+  color: rgb(236, 73, 73);
+}
+
+.bookinginput{
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px;
+  border-radius: 4px;
+
+}
+.bookinginput2{
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px;
+  border-radius: 4px;
+
+}
+
+/* profile edit start */
+.profileedit{
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  position: relative;
+  left: 220px;
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px;
+  border-radius: 4px;
+
+}
+
+  .button2{
+    position: relative;
+    left: 610px;
+  }
+/* profile edit end */
+
+/* nav transition */
+
+p{
+
+  text-decoration: none;
+
+
+  }
+  .nav-link{
+    transition: all 500ms linear;
+  }
+
+  .nav-link:hover{
+    background: rgba(195, 209, 232);
+  }
+
+  .carousel-item{
+    object-fit: cover;
+    object-position: center;
+    height: 120vh;
+    overflow: hidden;
+  }
+
+  /* nav transition end */
+
+
+  .SeatPlan{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+
+
+  }
